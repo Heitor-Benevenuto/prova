@@ -3,11 +3,11 @@ da linha de comando de execução do programa.
 Diz os diferentes sensores presentes
 Separa os dados em arquivos distintos
 Em cada arquivo, ordena as leituras por timestamp, data e hora em ordem crescente.
-
+Exemplo de programa 1 pra execução: gcc processa_leituras.c -o processa_leituras
 
 O programa prova2.c recebe da linha de comanda o nome de um sensor e uma data e uma hora posta o programa localiza usando busca binária, e sempre achando a busca mais próxima das horas colocadas no
 programa
-
+Exemplo de programa 2 para execução: gcc busca_sensor.c -o busca_sensor -lm
 
 O programa prova3.c gera um arquivo de teste gerando todas as horas minutos segundos dias meses e anos de acordo com que colocados no aplicativo, caso colocado uma informação que não existe o programa
 não executará corretamente e dará erro o programa utiliza 2000 leituras aleatórias com valores numéricos.
